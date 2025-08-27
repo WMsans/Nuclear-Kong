@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{2dc9a33d-6a03-4610-bb5c-42d59ab5b991}">
+		<property name="name">
+			<value>conveyerMoving</value>
+		</property>
+		<relationship name="folder">
+			<destination>{113ebcff-f3c4-4a27-9854-e563be14cdc0}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{9c0720bf-6094-4f52-b0de-ddcc25d6e572}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{9c0720bf-6094-4f52-b0de-ddcc25d6e572}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

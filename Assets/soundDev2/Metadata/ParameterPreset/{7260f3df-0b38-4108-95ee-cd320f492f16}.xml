@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{7260f3df-0b38-4108-95ee-cd320f492f16}">
+		<property name="name">
+			<value>smashType</value>
+		</property>
+		<relationship name="folder">
+			<destination>{113ebcff-f3c4-4a27-9854-e563be14cdc0}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a074ba5a-c5dd-4c21-8fbd-7e3f8784cef0}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a074ba5a-c5dd-4c21-8fbd-7e3f8784cef0}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{3e9f6d03-af03-4cec-853f-97fd50a7b941}">
+		<property name="assetPath">
+			<value>doorsmash.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.62097916666666664</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{db87a436-6e53-4853-994a-93ed5ac28855}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,5371 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7c9615a5cbd6b740a310c57c8d53257, type: 3}
+  m_Name: Rule Tiles
+  m_EditorClassIdentifier: 
+  settings:
+    _gridShape: 0
+    _zoomAmount: 0.7048322
+    _gridCellSize: {x: 32, y: 32}
+    _tileRenderOffset: {x: 0, y: 0}
+    _gridOffset: {x: 237.54105, y: -97.62906}
+    _lockWindows: 1
+    _hideSprites: 0
+    _showRuler: 1
+    _showModified: 0
+    _renderSmallGrid: 0
+    _zoomTreshold: 0.35
+    _drawerSize: 6
+    _displaySpriteDrawer: 1
+    _displayUniversalSpriteSettings: 0
+    _saveSpriteDrawer: 1
+    _drawerHeight: 50
+    _drawerCollumns: 2
+    _expandedDrawerCollumns: 10
+    _renderLockedOverlay: 0
+    _renderLockedOutline: 1
+    _lockedOutlineColor: {r: 1, g: 0, b: 0, a: 1}
+    _collapseSimilarRules: 0
+    _useUniversalSpriteSettings: 0
+    _treatSimilarTilesAsSame: 0
+    _presetBlockColor: {r: 1, g: 0.5764706, b: 0.05882353, a: 1}
+  _imageObjects:
+  - {fileID: 2467852049250012932, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1387974163, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -388771365, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 435964114, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 2053013849, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1506627013, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1772169735, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1169988260, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1853393745, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 2035594369, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -825896288, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -985589671, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 215150887, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -31694364, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1994464592, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 39149608, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 724749552, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -196906999, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 199268013, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -352424793, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1273754115, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -14974596, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -416039018, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -642527774, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 968194710, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -171318337, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -917293495, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1283493794, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -777740950, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -855465028, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1028242682, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1230174022, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 137529930, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1183628119, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1411115916, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1591720547, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1210022661, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 791581041, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1554583796, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1053948894, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 2127934389, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 2145607524, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -118997615, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1495490783, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1097840766, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1099892816, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 643617728, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -552336345, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1296747096, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1496662232, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1970316078, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -838209282, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -487059842, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -804714508, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -382183446, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -21976388, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1171086865, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1665308472, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -2106331412, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -2027611588, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1550745639, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 284727649, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1722119243, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -609822009, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 125360035, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 991527580, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 2129763033, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 2046052012, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -932903292, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -401790211, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 2085980116, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1453263404, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -568598486, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 207754505, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 806357267, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 433346476, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -275326498, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1517913454, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1717135671, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1377950418, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -504522330, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -276560147, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1938810801, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -913145581, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1788101867, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1977358360, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1974602778, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 872647858, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -609495489, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 589395872, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 873460232, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 709463960, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -417252391, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 284073769, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 2063309799, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1911557011, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 244526868, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1507203814, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1154330732, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 651056353, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1457561519, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -2043282471, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 869278260, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -527584326, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 372712291, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1972583597, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -164920066, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 415844004, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1938233111, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1633804498, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -964800437, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 348460442, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 514222803, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -969292909, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -646900368, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1216322235, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -697104610, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1907416855, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1499575064, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1066294744, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1557247700, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 347898511, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 410064417, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1306983480, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 568391362, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 2110397904, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 2036289008, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -1535475600, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1150855188, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1144045236, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1015177403, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -116335598, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -864785435, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 225741247, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 163283597, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 2034887580, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -552016662, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 832544417, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 242893702, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: 1116543740, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  - {fileID: -451960524, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+  _tileObjects:
+  - {fileID: 5524417267463019672}
+  _hexTileObjects: []
+  _grid:
+  - Position: {x: 21, y: 5}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 21, y: 6}
+    Sprite: {fileID: 1066294744, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 21, y: 7}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 22, y: 7}
+    Sprite: {fileID: -864785435, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 23, y: 7}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 23, y: 6}
+    Sprite: {fileID: 347898511, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 23, y: 5}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 22, y: 5}
+    Sprite: {fileID: 1938233111, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 22, y: 6}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 27, y: 5}
+    Sprite: {fileID: 415844004, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 27, y: 6}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 27, y: 7}
+    Sprite: {fileID: -116335598, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 28, y: 7}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 29, y: 7}
+    Sprite: {fileID: 225741247, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 29, y: 6}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 29, y: 5}
+    Sprite: {fileID: 1633804498, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 28, y: 5}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 28, y: 6}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 20, y: 10}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 20, y: 11}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 20, y: 12}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 20, y: 13}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 20, y: 14}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 21, y: 14}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 22, y: 14}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 23, y: 14}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 24, y: 14}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 24, y: 13}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 24, y: 12}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 24, y: 11}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 24, y: 10}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 23, y: 10}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 22, y: 10}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 21, y: 10}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 21, y: 11}
+    Sprite: {fileID: 2036289008, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 21, y: 12}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 21, y: 13}
+    Sprite: {fileID: 242893702, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 22, y: 11}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 23, y: 11}
+    Sprite: {fileID: -1535475600, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 23, y: 12}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 23, y: 13}
+    Sprite: {fileID: 1116543740, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 22, y: 13}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 20, y: 6}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 22, y: 4}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 22, y: 8}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 24, y: 6}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 27, y: 4}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 26, y: 5}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 26, y: 7}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 27, y: 8}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 29, y: 8}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 30, y: 7}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 30, y: 5}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 29, y: 4}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 22, y: 12}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 27, y: 12}
+    Sprite: {fileID: -1911557011, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 28, y: 12}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 29, y: 12}
+    Sprite: {fileID: 244526868, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 30, y: 12}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 31, y: 12}
+    Sprite: {fileID: -1507203814, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 34, y: 10}
+    Sprite: {fileID: 215150887, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 34, y: 11}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 34, y: 12}
+    Sprite: {fileID: -1499575064, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 34, y: 13}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 34, y: 14}
+    Sprite: {fileID: 1015177403, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 31, y: 11}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 32, y: 12}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 31, y: 13}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 29, y: 11}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 29, y: 13}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 27, y: 11}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 26, y: 12}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 27, y: 13}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 34, y: 9}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 33, y: 12}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 35, y: 12}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 33, y: 10}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 35, y: 10}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 33, y: 14}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 34, y: 15}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 35, y: 14}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 15, y: 6}
+    Sprite: {fileID: 2467852049250012932, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 15, y: 5}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 14, y: 6}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 15, y: 7}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 16, y: 6}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 12, y: 10}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 13, y: 9}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 13, y: 10}
+    Sprite: {fileID: -917293495, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 13, y: 11}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 14, y: 10}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 12, y: 9}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 14, y: 9}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 14, y: 11}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 12, y: 11}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 12, y: 16}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 13, y: 16}
+    Sprite: {fileID: -401790211, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 14, y: 16}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 13, y: 15}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 12, y: 15}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 14, y: 15}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 12, y: 17}
+    Sprite: {fileID: 2085980116, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 13, y: 17}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 14, y: 17}
+    Sprite: {fileID: 1665308472, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 11, y: 17}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 15, y: 17}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 12, y: 18}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 13, y: 18}
+    Sprite: {fileID: -2106331412, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 14, y: 18}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 13, y: 19}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 11, y: 16}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 11, y: 18}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 12, y: 19}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 14, y: 19}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 15, y: 18}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 15, y: 16}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 22, y: 19}
+    Sprite: {fileID: -1938810801, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 21, y: 18}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 23, y: 20}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 21, y: 19}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 21, y: 20}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 22, y: 20}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 22, y: 18}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 23, y: 18}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 23, y: 19}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 27, y: 19}
+    Sprite: {fileID: -276560147, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 26, y: 18}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 28, y: 20}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 26, y: 19}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 26, y: 20}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 27, y: 20}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 27, y: 18}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 28, y: 18}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 28, y: 19}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 11, y: 25}
+    Sprite: {fileID: -1171086865, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 11, y: 26}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 11, y: 27}
+    Sprite: {fileID: -21976388, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 12, y: 27}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 13, y: 27}
+    Sprite: {fileID: 2046052012, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 13, y: 26}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 13, y: 25}
+    Sprite: {fileID: -932903292, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 12, y: 25}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 12, y: 26}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 10, y: 27}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 11, y: 28}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 13, y: 28}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 14, y: 27}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 14, y: 25}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 13, y: 24}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 11, y: 24}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 10, y: 25}
+    Sprite: {fileID: 0}
+    TileID: 1
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 10, y: 26}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 10, y: 28}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 12, y: 28}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 14, y: 28}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 14, y: 26}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 14, y: 24}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 12, y: 24}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  - Position: {x: 10, y: 24}
+    Sprite: {fileID: 0}
+    TileID: -3
+    UseDefaultSettings: 1
+    AreNeighborPositionsModified: 0
+    AreOutputSpritesModified: 0
+    Locked: 0
+    _overrideUniversalSpriteSettings: 0
+    GameObject: {fileID: 0}
+    Sprites: []
+    ColliderType: 1
+    OutputSprite: 0
+    Transform: 0
+    IncludeSpriteInOutput: 0
+    NoiseScale: 0.5
+    RandomTransform: 0
+    MinAnimationSpeed: 1
+    MaxAnimationSpeed: 1
+    PatternSize: {x: 1, y: 1}
+    NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+  _tiles:
+  - UniqueID: 1
+    Name: Brick
+    Texture: {fileID: 0}
+    Color: {r: 0.4626165, g: 0.73422027, b: 0.040579915, a: 1}
+    TextureShape: 0
+    MirrorTexX: 0
+    MirrorTexY: 0
+    DefaultSprite: {fileID: 0}
+    ColliderType: 1
+    DefaultGameObject: {fileID: 0}
+    uniqueTile: 1
+    variationOf: -1
+    variations: 
+    customProperties: []
+  _overrideSprites: []
+  _presetBlocks: []
+--- !u!114 &5524417267463019672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf43673b89acb484b907a8b9ace39472, type: 3}
+  m_Name: Brick
+  m_EditorClassIdentifier: 
+  m_DefaultSprite: {fileID: 0}
+  m_DefaultGameObject: {fileID: 0}
+  m_DefaultColliderType: 1
+  m_TilingRules:
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: 2036289008, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: 0000000000000000fdffffff0000000000000000000000000000000000000000
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: 242893702, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: 00000000000000000000000000000000000000000000000000000000fdffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: -1535475600, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: fdffffff00000000000000000000000000000000000000000000000000000000
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: 1116543740, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: 0000000000000000000000000000000000000000fdffffff0000000000000000
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: -917293495, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: 0000000000000000000000000000000000000000000000000000000000000000
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: -401790211, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: 0000000000000000000000000000000000000000fdffffff00000000fdffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: 2085980116, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: fdffffff00000000000000000000000000000000fdffffff0000000000000000
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: 1665308472, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: 0000000000000000fdffffff00000000000000000000000000000000fdffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: -2106331412, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: fdffffff00000000fdffffff0000000000000000000000000000000000000000
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: -1938810801, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: fdffffff000000000000000000000000000000000000000000000000fdffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: -276560147, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: 0000000000000000fdffffff0000000000000000fdffffff0000000000000000
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: -1171086865, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: fdffffff00000000000000000000000000000000fdffffff00000000fdffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: -21976388, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: fdffffff00000000fdffffff0000000000000000fdffffff0000000000000000
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: 2046052012, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: fdffffff00000000fdffffff00000000000000000000000000000000fdffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: -932903292, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: 0000000000000000fdffffff0000000000000000fdffffff00000000fdffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: 1066294744, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: ffffffff0000000000000000fdffffff00000000ffffffff0000000000000000
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: -864785435, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: fffffffffdffffffffffffff0000000000000000000000000000000000000000
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: 347898511, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: 0000000000000000ffffffff00000000fdffffff0000000000000000ffffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: 1938233111, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: 0000000000000000000000000000000000000000fffffffffdffffffffffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: 415844004, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: ffffffff0000000000000000fdffffff00000000fffffffffdffffffffffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: -116335598, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: fffffffffdfffffffffffffffdffffff00000000ffffffff0000000000000000
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: 225741247, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: fffffffffdffffffffffffff00000000fdffffff0000000000000000ffffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: 1633804498, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: 0000000000000000ffffffff00000000fdfffffffffffffffdffffffffffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: -1911557011, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: fffffffffdfffffffffffffffdffffff00000000fffffffffdffffffffffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: 244526868, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: fffffffffdffffffffffffff0000000000000000fffffffffdffffffffffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: -1507203814, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: fffffffffdffffffffffffff00000000fdfffffffffffffffdffffffffffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: 215150887, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: ffffffff00000000fffffffffdfffffffdfffffffffffffffdffffffffffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: -1499575064, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: ffffffff00000000fffffffffdfffffffdffffffffffffff00000000ffffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: 1015177403, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: fffffffffdfffffffffffffffdfffffffdffffffffffffff00000000ffffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: 2467852049250012932, guid: c00b542db6a990540bd8e9149e2507ab, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: fffffffffdfffffffffffffffdfffffffdfffffffffffffffdffffffffffffff
+    m_NeighborPositions:
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    m_RuleTransform: 0
+  UniqueID: 1
+  otherTiles:
+  - {fileID: 5524417267463019672}
+  variations: []
+  customProperties: []
+  m_ExtendedTilingRules: []
+  m_ExtraTilingRules:
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  - m_ExtendedOutputSprite: 0
+    m_Patternsize: {x: 1, y: 1}
+  HasVariations: 0
+  HasExtraTilingRules: 0
+  TreatSimilarTilesAsSame: 0

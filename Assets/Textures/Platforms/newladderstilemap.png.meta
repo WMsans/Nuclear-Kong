@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: 59956f6481e0640b5a7260849381d914
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8747796426832831630
+    second: newladderstilemap_0
+  - first:
+      213: -4747084789906467155
+    second: newladderstilemap_1
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: newladderstilemap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 0}
+        - {x: -16, y: 0}
+        - {x: -16, y: -16}
+        - {x: 1, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e846dcc908a666970800000000000000
+      internalID: 8747796426832831630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 16, y: 0}
+        - {x: -1, y: 0}
+        - {x: -1, y: -16}
+        - {x: 16, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: da617f2e887fe1eb0800000000000000
+      internalID: -4747084789906467155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -15}
+        - {x: -13, y: -12}
+        - {x: -15, y: -12}
+        - {x: -16, y: -13}
+        - {x: -16, y: -16}
+        - {x: -10, y: -16}
+      - - {x: 2, y: -15}
+        - {x: -1, y: -12}
+        - {x: -3, y: -12}
+        - {x: -6, y: -15}
+        - {x: -6, y: -16}
+        - {x: 2, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a330c1b3684c46b8bf2f3987a8430b1
+      internalID: -541087878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -15}
+        - {x: 3, y: -12}
+        - {x: 1, y: -12}
+        - {x: -2, y: -15}
+        - {x: -2, y: -16}
+        - {x: 6, y: -16}
+      - - {x: 16, y: -13}
+        - {x: 15, y: -12}
+        - {x: 13, y: -12}
+        - {x: 10, y: -15}
+        - {x: 10, y: -16}
+        - {x: 16, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e60864d4f114473bdf7e7760479df7
+      internalID: -786575448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 1, y: -3}
+        - {x: 1, y: 16}
+        - {x: -16, y: 16}
+        - {x: -15, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104b836e9050640a0ac520ebe80cd8a4
+      internalID: 986075018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 16, y: 16}
+        - {x: -1, y: 16}
+        - {x: -1, y: -3}
+        - {x: 16, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56006aa1d5aef4a388a5329de2bfc0aa
+      internalID: -76917670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 1, y: -16}
+        - {x: 1, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c7a1d494f1842888a7b3e27d4d7081
+      internalID: -596797302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 16, y: 16}
+        - {x: -1, y: 16}
+        - {x: -1, y: -16}
+        - {x: 16, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa47c1df2e4544ddb1b5dcf9f64e9d0
+      internalID: -2120990201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 0}
+        - {x: -16, y: 0}
+        - {x: -16, y: -16}
+        - {x: 1, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ff0dcc8082c467da6293a6a134dffe
+      internalID: -887792830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 16, y: 0}
+        - {x: -1, y: 0}
+        - {x: -1, y: -16}
+        - {x: 16, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c29791ddff9f45e3a43e1eb1725c671
+      internalID: 2004675710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 1, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7652be10554b441d784a5d56bef02e54
+      internalID: -388836810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 16, y: 16}
+        - {x: -1, y: 16}
+        - {x: -1, y: -16}
+        - {x: 16, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b9a99ffcadf48069bd7ca257f2a5f8
+      internalID: 961206014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 1, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4b3701ad64f443c9e7f85723093b98
+      internalID: -1203509121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 16, y: 16}
+        - {x: -1, y: 16}
+        - {x: -1, y: -16}
+        - {x: 16, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e37460f2dfcb4b25b8485c5a2b66623
+      internalID: 1497083827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 1, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88255252e1f846ea81cef0fd6284fd4
+      internalID: -306678966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 16, y: 16}
+        - {x: -1, y: 16}
+        - {x: -1, y: -16}
+        - {x: 16, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b2e0d26304246eab632e4280f54308
+      internalID: -1218465174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -10, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: 13}
+        - {x: -15, y: 12}
+        - {x: -13, y: 12}
+      - - {x: 2, y: 15}
+        - {x: 2, y: 16}
+        - {x: -6, y: 16}
+        - {x: -6, y: 15}
+        - {x: -3, y: 12}
+        - {x: -1, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81c81533ba554071ab313670f7dd556
+      internalID: 926210858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 6, y: 15}
+        - {x: 6, y: 16}
+        - {x: -2, y: 16}
+        - {x: -2, y: 15}
+        - {x: 1, y: 12}
+        - {x: 3, y: 12}
+      - - {x: 16, y: 13}
+        - {x: 16, y: 16}
+        - {x: 10, y: 16}
+        - {x: 10, y: 15}
+        - {x: 13, y: 12}
+        - {x: 15, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1351afdacd984f5a962bfbd3c181180
+      internalID: 728125546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 1, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca3c3be4177d415899de8e9a952ea8a
+      internalID: -1203007335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newladderstilemap_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 16, y: -15}
+        - {x: 16, y: 16}
+        - {x: -1, y: 16}
+        - {x: -1, y: -16}
+        - {x: 15, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c040b66768f4f2fba8f2b36b346114
+      internalID: 1167822866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ef2995f8194714d0c9e6c19117aa04b7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      newladderstilemap_0: 8747796426832831630
+      newladderstilemap_1: -4747084789906467155
+      newladderstilemap_10: -388836810
+      newladderstilemap_11: 961206014
+      newladderstilemap_12: -1203509121
+      newladderstilemap_13: 1497083827
+      newladderstilemap_14: -306678966
+      newladderstilemap_15: -1218465174
+      newladderstilemap_16: 926210858
+      newladderstilemap_17: 728125546
+      newladderstilemap_18: -1203007335
+      newladderstilemap_19: 1167822866
+      newladderstilemap_2: -541087878
+      newladderstilemap_3: -786575448
+      newladderstilemap_4: 986075018
+      newladderstilemap_5: -76917670
+      newladderstilemap_6: -596797302
+      newladderstilemap_7: -2120990201
+      newladderstilemap_8: -887792830
+      newladderstilemap_9: 2004675710
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

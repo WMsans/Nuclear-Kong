@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bacefc7c9eb4ff788cf70c9899251f5, type: 3}
+  m_Name: Weapon UI Mapping
+  m_EditorClassIdentifier: 
+  weaponToUIPrefab:
+    _serializedList:
+    - Key: {fileID: 11400000, guid: 715e47bac339a0b41b9e6424ca09fe0c, type: 2}
+      Value: {fileID: 8306055137726654606, guid: dd012ece51e117241a7549cdf0684949, type: 3}
+    - Key: {fileID: 11400000, guid: 41e978c640e99fd43bfb2d3a374f8abf, type: 2}
+      Value: {fileID: 8306055137726654606, guid: b2dbe190e6216ad4aa2e1f4c0fbae2ab, type: 3}

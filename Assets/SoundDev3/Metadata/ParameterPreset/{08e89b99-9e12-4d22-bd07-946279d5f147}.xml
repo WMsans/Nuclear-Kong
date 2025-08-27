@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{08e89b99-9e12-4d22-bd07-946279d5f147}">
+		<property name="name">
+			<value>nearWater</value>
+		</property>
+		<relationship name="folder">
+			<destination>{113ebcff-f3c4-4a27-9854-e563be14cdc0}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b70cb396-46f4-4490-b638-ef6390805b1e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b70cb396-46f4-4490-b638-ef6390805b1e}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
